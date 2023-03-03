@@ -16,14 +16,14 @@ margin_left = 76.0
 margin_top = 493.0
 margin_right = 342.0
 margin_bottom = 563.0
-text = "PREENCHER TEXTO"
+text = "PREENCHER TEXTO - EX 4"
 
 [node name="PREENCHER LISTA" type="Button" parent="."]
 margin_left = 75.0
 margin_top = 210.0
 margin_right = 341.0
 margin_bottom = 280.0
-text = "PREENCHER LISTA"
+text = "PREENCHER LISTA - EX 2"
 
 [node name="LineEdit" type="LineEdit" parent="."]
 margin_left = 76.0
@@ -36,14 +36,14 @@ margin_left = 535.0
 margin_top = 56.0
 margin_right = 801.0
 margin_bottom = 126.0
-text = "LISTA PREENCHIDA"
+text = "LISTA PREENCHIDA - EX 1"
 
-[node name="APAGAR" type="Button" parent="."]
+[node name="TEXTO PREENCHIDO" type="Button" parent="."]
 margin_left = 531.0
 margin_top = 485.0
 margin_right = 797.0
 margin_bottom = 555.0
-text = "APAGAR"
+text = "TEXTO PREENCHIDO - EX 3"
 
 [node name="ColorRect" type="ColorRect" parent="."]
 margin_left = 369.0
@@ -64,4 +64,5 @@ margin_bottom = 256.0
 [connection signal="pressed" from="PREENCHER LISTA" to="." method="_on_PREENCHER_LISTA_pressed"]
 [connection signal="text_entered" from="LineEdit" to="." method="_on_LineEdit_text_entered"]
 [connection signal="pressed" from="LISTA PREENCHIDA" to="." method="_on_LISTA_PREENCHIDA_pressed"]
-[connection signal="pressed" from="APAGAR" to="." method="_on_APAGAR_pressed"]
+[connection signal="pressed" from="TEXTO PREENCHIDO" to="." method="_on_APAGAR_pressed"]
+[connection signal="pressed" from="TEXTO PREENCHIDO" to="." method="_on_TEXTO_PREENCHIDO_pressed"]
